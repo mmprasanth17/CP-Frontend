@@ -1,0 +1,150 @@
+4/06/2024
+
+*HTML
+-It is use to create strucuture of webpage or website.
+-It is use to dispaly data to user on browser
+-it is a tab basis language
+-it is a hyper text markup language
+-it is a latest version is html 5
+---------------------------------------------------------
+
+What is tag
+<tag>
+
+-in html we have two types of tag
+
+1.paired tag:<startTag> content </endTag>
+2.unpaired tag:<singleTag>
+--------------------------------------------------------
+
+-to dispaly all infromation for that we have tag
+
+step to create html file
+step1: create html file by weiting fileName.html
+step2: write code
+step3: execute file on 
+------------------------------------------------------
+
+<!DOCTYPE html>: it tells search enginee it is html type of document belong to html version 5
+
+head :it contain external links and meta data in it.
+body :it is used to display data or information the webpage or browser
+title:it is uesd to dispaly the title name fof head part eg.demo page
+-------------------------------------------------------------------------------------
+
+*Element:
+<startTag attribute="value"> content or info </endTag>
+
+Attribute:-it will give a additional information about tag.
+          -it will come in key value paired formate.
+          -it always write in staring Tag.
+-----------------------------------------------------------------------
+
+*In html we have two types of element :
+
+1.Block element: -the element which takes 100% width of its screen.
+                 -and it always start on nwe line.
+                 -eg.h1-h6,p,o1,u1,table,form
+-----------------
+2.Inline element: -the element will takes required width of it.
+                  -it will nevwe start on new line.
+                  -ex. b,i,u,img,a
+
+-----------------------------------------------------------------------------------------
+
+mete tag: it provide information about data, it is unpaired tag
+utf - it convert binart(11100) data to alphabets(abcd)
+
+----------------------------------------------------------
+List: it is collection of items
+
+3 typrs of list
+1. ordered list(o1,li):
+        types:number,a.b.c,A,B,C,i,ii,iii,I,II,III
+
+2.unordered list(ul,li):
+        types:disc,circle,square,none
+
+3.Deiscription list: it contain 3 types, it introduce in html 5
+        dl:Deiscription list
+        dt:define term
+        dd:define Deiscription
+
+--------------------------------------------------------------------------------
+
+Q.what is different between html and html 5?
+Q.what are the feature of html 5?
+
+Ans. - Symantic element introduce -> the element which has specfic meaning its called assymentic element
+                                   eg. header,footer,nav,section,address
+     - Nwe input type,new tag and arttribute introduce:
+     -Multimedia element introduce: we can add audio and video file in webpage
+-----------------------------------------
+     -HTML API introduce:
+        1.Geolocation : it returns user current postion, for this in your system GPS must be there.
+
+        2.Drag and  : Grabing an object from one location and drag at another location.
+
+        3.Web-worker : it is a small js code which execute at backend of web application,
+                        without affecting its current execution.
+
+        4.webstorage : it is use to store user data on browser.
+           -local-storage : it is use to store user data for permantly.
+           -session storage : it is use to store user data for limited time.
+
+        5.SSE(Server Sent Event) : it allows user to get automatic update from server.
+--------------------------------------------------------------------------------------------------
+Q.why there is nesscity introduce symatic element ?
+Ans. In whole Html there were no symatic element. so developer use there own nameing convention for the website this make 
+difficult for the search enginee to identify correct content in the web site or web application ,that why symatic element
+get introduecded and it help both search enginee and developer to identift the correct content in your web application.
+
+* How to insert by using relative path
+* How to insert video
+* How to insert Audio file
+-------------------------------------------------------------------
+
+*iframe : it is use to create small window on browser.
+          1.we can insert google map location in webpage
+          Step1: search location on google map.
+          step2:click on shared -> embed a map -> copy url
+          step3:paste url in website
+          2.we can insert youtube video
+          3.we can insert one website into another website
+
+
+----------------------------------------------------------------------------------------------------------
+05/06/2024
+
+Link: to redirect from one page to another page.
+      -in html we use anchor tag to create link.
+
+Table: it is the collection of row and columan
+<table>
+th -> table headind
+tr -> table row
+td -> table data
+
+note: In table first we need to create row and then colomn
+
+------------------------------------------------------------------------------------------------------------
+
+*Form : it is used to get data from the user
+button: this button has four types
+        1.button
+        2.submit
+        3.reset
+        4.menu
+---------------------------------------------------------------
+ 
+ *To submit form data we have two method
+ 1.get - when our aim is to create simple and small form
+       - we do not submit essential date
+       - user data will visible on browser url.
+       - browser url as a character limitation.
+
+2.post - when our aim is to submit confidential data
+       - data will not visible to user.
+       - there is no character limitation.
+
+---------------------------------------------------------------------

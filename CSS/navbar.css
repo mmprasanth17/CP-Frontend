@@ -1,0 +1,27 @@
+.edit{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 50%);
+    /* width: 178px; */
+    overflow: auto;
+
+
+}
+
+/*li{
+    float: left;
+}*/
+.edit a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 7px 5px;
+}
+.edit a:hover{
+    background-color: lightgreen;
+    color: blue;
+    font-weight: 800
+}
