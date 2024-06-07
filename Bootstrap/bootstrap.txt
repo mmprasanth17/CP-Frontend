@@ -1,0 +1,60 @@
+bootstrap: it is html, css and havascript framework.
+           - which is use to make web app attractive,responsive and mobile friendly.
+           -it provide inbuilt class.
+           - latest version of vootstrap is Bootstraps.
+
+*there are two ways to use bootstrap
+1.by using CDN(content Delivery Network) Link.
+2.By downloading.
+
+*official website bootstrap is
+Getbootstrap.com
+
+*how to copy and use CDN Link
+*heading classes: .display-1 to .display-6
+
+.container : it apply 15px margin from left and ride side of element.
+.container-fluid: it will take full width of screen.
+
+Note : Above two classes use to wrap the element or content.
+
+*color class:
+.text-danger: text-warning, text-success.
+.bg-danger(background color) - .bg-primary, .bg-warning.
+
+*Chaining of class: we can write multiple classes together.
+
+*Table to class
+*Button classes
+*spinner-border
+*spinner-grow
+
+.rounded, 
+.rounded-circle, 
+.img-thumbnail
+
+
+*Bootstrap Grid:
+- it is use to manage element layoutaccording to differnent screen width.
+-in bootstrap grid we use two class,
+            1.row class
+            2.col class
+
+-ImpNote: in bootstrap grid style row we display multiple column with sizw 12 only.
+         - if column size grater then 12 then next column will start from new row.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
