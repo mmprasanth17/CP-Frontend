@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let msg = "         hello            "
+        document.write(msg)
+        console.log(msg);
+        console.log(msg.trim());
+        console.log(msg.trimStart())
+        console.log(msg.trimEnd())
+
+        document.write("<br>");
+
+
+        let courses = ["react", "Angular", "java", "python", "Nodejs"]
+        //1.forEach(): it call another method once for each array. it only with the array
+        courses.forEach((val, index) => {
+            document.write(val + " ");
+        })
+        document.write("<br>");
+
+        //2. map(): it call another method once for each array element and it return new after perfoming manipulation with array data or value.
+
+        let num =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+
+        document.write(num,"<br>")
+        let mapOut = num.map((val,index)=>{
+            return val*2;
+        })
+        document.write(mapOut,"<br>")
+
+        //3.filter : it call another method once for each array elemnt and it return array of those element who satisty given condition.
+
+        let filterOut = num.filter((val,index)=>{
+            return val%2===0;
+        })
+        document.write(filterOut,"<br>")
+
+        // 4.every(): it call another method once for each array element  and it retuns true value if all array elemnt satisfy by given condition.
+
+        let everyOut = num.every((val,index)=>{
+            return val > 0;
+        })
+        document.write(everyOut,"<br>")
+
+        //5.some(): it call another method once for ecah array element and it return true value if some of array element satisfy by given condition.
+
+        let someOut = num.some((val,index)=>{
+            return val > 0;
+        })
+        document.write(someOut,"<br>")
+
+        //6.reduce/reduceRight : it return array as single value, it takes parameter in it, 1. prevValue, 2.next value
+        let reduceOut = num.reduce((prev,next)=>{
+            return prev+next;
+        })
+        document.write(reduceOut,"<br>")
+
+        //swap two number
+        let num1,num2
+
+        num1=600
+        num2=250
+
+        num1=num1+num2
+        num2=num1-num2
+        num1=num1-num2
+
+        document.write("num1 :",num1)
+        document.write("<br>")
+        document.write("num2 :",num2)
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

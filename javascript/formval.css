@@ -1,0 +1,16 @@
+.method{
+    border: 3px solid black;
+    width: 300px;
+    margin: auto;
+    height: 55px;
+    text-align: center;
+    padding: 54px;
+    font-size: 21px;
+    background-color: bisque;
+    border-radius: 20px
+}
+input[type=text]{
+    height: 4px;
+    width: 290px;
+    padding: 10px;
+}

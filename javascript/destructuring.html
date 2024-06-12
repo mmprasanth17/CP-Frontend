@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Destructuring Example</title>
+</head>
+
+<body>
+    <html>
+    <script>
+        // let states = ["Maharashtra", "Tamilnadu", "Goa", "Kerala"]
+        // let Mah = states[0]
+        // let Tam = states[1]
+        // let Go = states[2]
+        // let Kr = states[3]
+        // document.write(`${Mah} ${Tam} ${Go} ${Kr}<br>`)
+        
+
+        let states = ["Maharashtra", "Tamilnadu", "Goa", "Kerala"];
+        //Destructuring the array into individual variables
+        const [Mah, Tam, Go, Kr] = states;
+        document.write(`${Mah} ${Tam} ${Go} ${Kr} <br>`);
+
+        //object
+        let emp = { empId: 101, empName: "Haran", empSalary: 98000, empAddress: "Chennai" };
+        let id = emp.empId;
+        let name = emp.empName;
+        let salary = emp.empSalary;
+        let address = emp.empAddress;
+        document.write(`${id} ${name} ${salary} ${address} <br>`);
+         
+        // destructuring of object:
+        const { empId, empName, empSalary, empAddress } = emp;
+        document.write(`${empId} ${empName} ${empSalary} ${empAddress} <br>`);
+    </script>
+
+
+
+</body>
+
+</html>

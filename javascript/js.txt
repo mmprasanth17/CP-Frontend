@@ -1,0 +1,229 @@
+07/06/2024
+javascript: it is use to add functionality and behaviour into webapp.
+            - it is interpreated language.
+            - it is loseely typed language.
+
+*There are two ways to use javascript
+1.internal javascript : in html file we use script and in that script we write jscode.
+2.external javascript : first we create a sperate js file and that js file we import in html file by using  script tag.
+
+*How to display output in js
+1.document.write() : it will display output on web page on html page.
+2.window.alert(): it will generate one pop up window and dispaly our code init.
+3.console.log(): it will give output in browser control or in terminal.
+4.innerHtml(DOM): it allows us to insert data on inside the element.
+
+=====================================================================================================
+
+*10/06/24
+
+- in javascript window is global object
+By using DOM how to set, get value from element.
+-how to apply style rule to an element by using DOM 
+
+*function.
+- it is block of code, which is use to perform specific task.
+-it will execute only when it is called.
+
+*There are mainlt two types of function,
+1.predefine function: provided by javascript.
+2.user-define function: created by user.
+
+*How to get values from input control.
+* how to use onclick event.
+
+2009(ECMA SCRIPT-5):
+2015(ECMA SCRIPT)
+
+*Data types
+There are two types data types
+1.premitive datatypes: number, string, boolean , undefine, null
+2.non-premitive data type : array, object
+
+*Array:
+- it is used to store multiple values with same data type in single variable.
+- in array values store on index basics
+- array index always start from 0(Zero) index.
+- array denoted by [] bracket
+
+*Length of Array : total number of values available in it.
+syntax : arrayName.Length
+*Arrat Size : total nu,ber of index
+syntax: arrayName.length-1
+
+*Array method
+
+*object data type:
+-it is used to store multiple values with different datatypes in single variable.
+-in object data store in key and value in paire format.
+-we can access object data outside for that we write object, keyName.
+-object denoted by {}
+
+*how to change object data;
+*array of object
+how to display arrarty of object data
+
+
+
+
+
+
+
+
+
+
+
+callback function: passing one function as an argument inside another function is called callback function.
+
+*settime out method: it will call another method only once after particular time interval.
+          - it takes two parameter 1.callback function, 2.Time in millisecond
+
+*seinterval method: it will call another method multiple time after particular time interval
+           - it takes two parameter 1.callback function, 2.Time in millisecond.
+
+*Date and its method
+-if you want to get date and time in web page by using javascript for firdt we have to create object of date class.
+- in javascript date class return date and time 
+        syntax: - let dateobj= new Date();
+
+        sun=0...................mom=6
+
+let datw= new datw(year, month,date hours,second,millisecond)
+
+================================================================================================================================
+
+* 11/06/2024
+* nodejs is used to exceute on server side
+
+*Exponentiation operator : it will returm power of any number.
+in javascript there are two operator
+1. == - it check only value. if values are same then it return true result.
+2 === - it check both value as well as its datatypes if both are same then and only that is shows true result.
+ex. 
+  5**5 => true
+  '5' => true
+  5==5 => true
+  '5'==5 => false
+
+*Hoisting - it is javascript default behaviour which moves variable and function decleration at top of page. means we can use variable before declration of it.
+        
+*different between var, let and const
+
+var : 
+ - it support hoisting concepts.
+ -we can yse variable before decleration of it.
+ -we can use re-declera it.
+
+ let:
+   - it do npt support hoisting concept.
+   - we can not use variable before decleration of it.
+   - we can not re-declear it.
+
+const:
+   - it is use to create variable with constant value.
+   - when we declear constant variable at same time we have to intilize it.
+   -constant variable value will never change on run time.
+
+*Math method: it is used to perform mathematic operation.
+             - provides inbulit method.
+
+math.ceil(5.6) = > 6
+math.ceil(5.1) = > 6
+math.floor(5.8) = > 5
+math.floorl(5.1) = > 5
+math.round(5.4) = > 5
+
+
+string and its method
+-it is collection of character.
+-in string every letter has index number.
+-character index from zero index.
+-in string black space is also consider as string.
+
+*How to find index of searching string.
+1. insexof: ("search-string",index);
+ -it will return index of first occurance of searching string.
+ -it will search string from left to right direction.
+ -if searching string not found then it will return -1 result.
+
+2. lastIndexof:("search-string",index)
+it will return index of first occurance of searching string.
+ -it will search string from right to left direction.
+ -if searching string not found then it will return -1 result.
+
+
+3.search:
+it will return index of first occurance of searching string.
+ -it will search string from left to right direction.
+ -if searching string not found then it will return -1 result.
+ -it is faster then index of method.
+
+
+* how to find part of string from big string
+4. slice :(start-index,end-index)
+        - it will return partial part of string from index number.
+        - slice method will search string from left to right when we pass +view of index.
+        - slice method will search string from right to left when we pass -view of index.
+
+5. substring: :(start-index,end-index)
+         - it will return partial part of string from index number.
+        - slice method will search string from left to right when we pass +view of index.
+       
+6. substr :(start-index,total-number-character)
+   - it will return partial part of string from index number.
+        - slice method will search string from left to right when we pass +view of index.
+
+7. split(separe): it is used to converting string data into array
+
+8. replace("newText","oldText);
+
+9.charAt(index): it return  single available  on index number
+
+
+*ESS(ECMA script)2009:
+"use script" :
+-it execute javascript code in strict mode, in this we can not use variable before decleration of it.
+- it always write starting of jscode
+
+2.trim() : it is used to remove unwanted white space of both side of string.
+
+-for each
+-map
+-filter-
+-every-some-
+-reduce or reduceRight :
+
+*propt : it generate one popup window and allowa user to insert data init.
+        task:get value by using pront display whether enter alphabet or vowel or consonenr
+
+*Form Validation
+*Perform form validation after submitting form
+ - for this we use onsubmit event
+
+* perform from validation before submitting form
+  - for this we use onblur event
+
+  ================================================================================================================================
+
+  12/06/24
+
+  *How to merge two or more array
+  1. By using concat method
+  2. By using spread operator
+
+  * Destructuring : creating constant variable and strong data in ti.
+                   - we can Destructuring array and object in it.
+
+                   
+
+
+
+
+
+
+
+
+
+
+
+
