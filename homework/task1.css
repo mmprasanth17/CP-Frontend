@@ -1,0 +1,95 @@
+
+.title{
+    border: 5px solid black;
+    width: 600px;
+    height: 1000px;
+    position: relative;
+    overflow: scroll;
+}
+
+.logo{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin: 5px;
+}
+.thick{
+    border: 3px solid black;
+}
+*{
+    box-sizing: border-box;
+}
+.point1{
+    border: 3px solid black;
+    left: 09px;
+    right: 11px;
+}
+.point2{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 544px;
+}
+.point3{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 409px
+}
+.point4{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 300px;
+}
+.point5{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 200px;
+}
+.point6{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 100px;
+}
+.point7{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: 5px;
+}
+.point8{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: -90px;
+}
+.point9{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: -220px;
+}
+.point10{
+    border: 3px solid black;
+    position: absolute;
+    left: 9px;
+    right: 11px;
+    bottom: -350px;
+}
+.img-right{
+    height: 100px;
+    float: left;
+}
